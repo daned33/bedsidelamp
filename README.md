@@ -9,7 +9,7 @@ The project is currently using GPIO pin's 17 and 22 but it's easy enough to edit
 
 ## Dependencies
 
-You're going to need [pi-blaster by sarfata](https://github.com/sarfata/pi-blasterhttps://github.com/sarfata/pi-blaster).
+You're going to need [pi-blaster by sarfata](https://github.com/sarfata/pi-blaster).
 
 
 ## Installation
