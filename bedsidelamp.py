@@ -56,7 +56,6 @@ def parse_data(parsable_data):
             fade = parsable_data.get('fade', [''])[0]
         else:
             fade =  '10'
-
         data = [set_brightness,fade]
 
 class MyHandler(BaseHTTPRequestHandler):
@@ -72,7 +71,6 @@ class MyHandler(BaseHTTPRequestHandler):
                 print(data)
             self.end_headers()
             self.wfile.write('Request Recieved')
-
         return
 
     def log_request(self, code=None, size=None):
@@ -80,7 +78,6 @@ class MyHandler(BaseHTTPRequestHandler):
 
     def log_message(self, format, *args):
         print('Message')
-
 
 def server_thread():
     try:
@@ -90,13 +87,6 @@ def server_thread():
     except KeyboardInterrupt:
         print('^C received, shutting down server')
         server.socket.close()
-
-
-def print2():
-    while True:
-        print("2")
-
-
 
 try:
    thread.start_new_thread(server_thread,())
