@@ -22,9 +22,11 @@ All you need to do is make GET requests to your Raspberry Pi to the port (defaul
 
 The brightness attribute is a percentage value. For example:
 
-* brightness=50 would be 50% brightness.
-* brightness=82 would be 82% brightness.
-* and so on.
+* `brightness=50` 
+  * would be 50% brightness.
+* `brightness=82` 
+  * would be 82% brightness.
+    * and so on.
 
 And the fade attribute is the amount of seconds it will take to go from one brightness to another. For example:
 
