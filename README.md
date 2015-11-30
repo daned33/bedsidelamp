@@ -1,4 +1,4 @@
-# Web Controled BedsideLamps
+# Web Controlled BedsideLamps
 
 This is a project I've been working on that controls my two bedside lamps with led's I've hacked onto them using a Raspberry Pi underneath my bed.
 
@@ -28,11 +28,15 @@ The brightness attribute is a percentage value. For example:
 
 And the fade attribute is the amount of seconds it will take to go from one brightness to another. For example:
 
-* fade=30 would take 30 seconds to get from the current brightness to the new set brightness.
-* fade=60 would take one minute.
-* fade=300 would take 5 minutes.
-* fade=600 would take 10.
-* and so on.
+* `fade=30`
+  * would take 30 seconds to get from the current brightness to the new set brightness.
+* `fade=60` 
+  * would take one minute.
+* `fade=300` 
+  * would take 5 minutes.
+* `fade=600` 
+  * would take 10.
+    * and so on.
 
 *ps. If the fade attribute is missing from the GET request. It defaults to 10 seconds.
 
